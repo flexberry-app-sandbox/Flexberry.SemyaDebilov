@@ -1,0 +1,75 @@
+﻿{
+  "name": "IISSemyaDebilovСправочникЦен",
+  "modelName": "i-i-s-semya-debilov-справочник-цен",
+  "className": "СправочникЦен",
+  "nameSpace": "IIS.SemyaDebilov",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "типТоплива",
+      "type": "i-i-s-semya-debilov-тип-топлива",
+      "flexberryType": "ТипТоплива",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "цена",
+      "type": "decimal",
+      "flexberryType": "double",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "СправочникЦенE",
+      "modelName": "i-i-s-semya-debilov-справочник-цен",
+      "attrs": [
+        {
+          "name": "типТоплива",
+          "caption": "Тип топлива",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "цена",
+          "caption": "Цена",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "СправочникЦенL",
+      "modelName": "i-i-s-semya-debilov-справочник-цен",
+      "attrs": [
+        {
+          "name": "типТоплива",
+          "caption": "Тип топлива",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "цена",
+          "caption": "Цена",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

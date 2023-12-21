@@ -1,0 +1,104 @@
+﻿{
+  "name": "IISSemyaDebilovСостав",
+  "modelName": "i-i-s-semya-debilov-состав",
+  "className": "Состав",
+  "nameSpace": "IIS.SemyaDebilov",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "пистолет",
+      "relatedTo": "i-i-s-semya-debilov-пистолет",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "колонка",
+      "relatedTo": "i-i-s-semya-debilov-колонка",
+      "inverse": "состав"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "СоставE",
+      "modelName": "i-i-s-semya-debilov-состав",
+      "attrs": [],
+      "belongsTo": [
+        {
+          "lookupValue": "Номер",
+          "lookupValueField": "номер",
+          "relationName": "Пистолет",
+          "belongsTo": [
+            {
+              "lookupValue": null,
+              "lookupValueField": null,
+              "relationName": "Пистолет.Топливо",
+              "belongsTo": [
+                {
+                  "lookupValue": null,
+                  "lookupValueField": null,
+                  "relationName": "Пистолет.Топливо.СправочникЦен",
+                  "belongsTo": [],
+                  "hidden": false,
+                  "attrs": [
+                    {
+                      "name": "цена",
+                      "caption": "Цена",
+                      "hidden": false,
+                      "index": 3
+                    }
+                  ],
+                  "index": -1,
+                  "type": null,
+                  "caption": "",
+                  "name": "справочникЦен",
+                  "relatedTo": "i-i-s-semya-debilov-справочник-цен",
+                  "inverse": null
+                }
+              ],
+              "hidden": false,
+              "attrs": [
+                {
+                  "name": "типТоплива",
+                  "caption": "Тип топлива",
+                  "hidden": false,
+                  "index": 2
+                }
+              ],
+              "index": -1,
+              "type": null,
+              "caption": "",
+              "name": "топливо",
+              "relatedTo": "i-i-s-semya-debilov-топливо",
+              "inverse": null
+            }
+          ],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "номер",
+              "caption": "Номер",
+              "hidden": true,
+              "index": 1
+            }
+          ],
+          "index": 0,
+          "type": "standard",
+          "caption": "Пистолет",
+          "name": "пистолет",
+          "relatedTo": "i-i-s-semya-debilov-пистолет",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

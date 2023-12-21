@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Резервуар",
+  "name": "IISSemyaDebilovРезервуарE",
+  "className": "РезервуарE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-semya-debilov-резервуар",
+      "modelProjection": "РезервуарE"
+    }
+  ]
+}

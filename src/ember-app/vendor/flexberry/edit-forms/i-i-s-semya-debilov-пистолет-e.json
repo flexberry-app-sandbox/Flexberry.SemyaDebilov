@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Топливо",
+      "projection": "ТопливоL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Пистолет",
+  "name": "IISSemyaDebilovПистолетE",
+  "className": "ПистолетE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-semya-debilov-пистолет",
+      "modelProjection": "ПистолетE"
+    }
+  ]
+}

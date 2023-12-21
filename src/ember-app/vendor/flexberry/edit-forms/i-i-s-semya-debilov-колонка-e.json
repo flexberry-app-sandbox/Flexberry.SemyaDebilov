@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": "пистолет",
+      "displayAttributeName": "номер",
+      "required": true,
+      "relationName": "Состав.Пистолет",
+      "projection": "ПистолетL",
+      "detailModelName": "i-i-s-semya-debilov-состав"
+    }
+  ],
+  "external": false,
+  "caption": "Колонка",
+  "name": "IISSemyaDebilovКолонкаE",
+  "className": "КолонкаE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-semya-debilov-колонка",
+      "modelProjection": "КолонкаE"
+    }
+  ]
+}

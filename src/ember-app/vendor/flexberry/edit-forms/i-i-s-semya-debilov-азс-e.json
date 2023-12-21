@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Азс",
+  "name": "IISSemyaDebilovАзсE",
+  "className": "АзсE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-semya-debilov-азс",
+      "modelProjection": "АзсE"
+    }
+  ]
+}

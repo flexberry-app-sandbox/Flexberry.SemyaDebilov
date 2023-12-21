@@ -1,0 +1,78 @@
+﻿{
+  "applicationCaption": "Semya debilov",
+  "applicationTitle": "Semya debilov",
+  "items": [
+    {
+      "link": null,
+      "menuName": "semya-debilov",
+      "caption": "SemyaDebilov",
+      "title": "SemyaDebilov",
+      "children": [
+        {
+          "link": "i-i-s-semya-debilov-резервуар-l",
+          "menuName": null,
+          "caption": "Резервуар",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-semya-debilov-регистр-l",
+          "menuName": null,
+          "caption": "Регистр",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-semya-debilov-оплата-l",
+          "menuName": null,
+          "caption": "Оплата",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-semya-debilov-азс-l",
+          "menuName": null,
+          "caption": "Азс",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-semya-debilov-терминал-l",
+          "menuName": null,
+          "caption": "Терминал",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-semya-debilov-пистолет-l",
+          "menuName": null,
+          "caption": "Пистолет",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-semya-debilov-справочник-цен-l",
+          "menuName": null,
+          "caption": "Справочник цен",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-semya-debilov-топливо-l",
+          "menuName": null,
+          "caption": "Топливо",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-semya-debilov-колонка-l",
+          "menuName": null,
+          "caption": "Колонка",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

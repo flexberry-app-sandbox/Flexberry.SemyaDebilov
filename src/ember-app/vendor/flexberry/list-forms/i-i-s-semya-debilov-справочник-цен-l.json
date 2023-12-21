@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-semya-debilov-справочник-цен-e",
+  "editForm": "i-i-s-semya-debilov-справочник-цен-e",
+  "external": false,
+  "caption": "Справочник цен",
+  "name": "IISSemyaDebilovСправочникЦенL",
+  "className": "СправочникЦенL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-semya-debilov-справочник-цен",
+      "modelProjection": "СправочникЦенL"
+    }
+  ]
+}

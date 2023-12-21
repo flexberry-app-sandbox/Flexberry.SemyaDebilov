@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "СправочникЦен",
+      "projection": "СправочникЦенL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Топливо",
+  "name": "IISSemyaDebilovТопливоE",
+  "className": "ТопливоE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-semya-debilov-топливо",
+      "modelProjection": "ТопливоE"
+    }
+  ]
+}

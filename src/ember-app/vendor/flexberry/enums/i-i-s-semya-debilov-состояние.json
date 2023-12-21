@@ -1,0 +1,8 @@
+﻿{
+  "nameSpace": "IIS.SemyaDebilov",
+  "className": "Состояние",
+  "enumObjects": {
+    "1": "Работает",
+    "2": "Не работает"
+  }
+}

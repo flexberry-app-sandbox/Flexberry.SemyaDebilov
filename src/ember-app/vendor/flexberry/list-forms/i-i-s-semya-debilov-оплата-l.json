@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-semya-debilov-оплата-e",
+  "editForm": "i-i-s-semya-debilov-оплата-e",
+  "external": false,
+  "caption": "Оплата",
+  "name": "IISSemyaDebilovОплатаL",
+  "className": "ОплатаL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-semya-debilov-оплата",
+      "modelProjection": "ОплатаL"
+    }
+  ]
+}

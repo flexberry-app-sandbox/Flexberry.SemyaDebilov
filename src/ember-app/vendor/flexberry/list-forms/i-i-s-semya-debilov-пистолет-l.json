@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-semya-debilov-пистолет-e",
+  "editForm": "i-i-s-semya-debilov-пистолет-e",
+  "external": false,
+  "caption": "Пистолет",
+  "name": "IISSemyaDebilovПистолетL",
+  "className": "ПистолетL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-semya-debilov-пистолет",
+      "modelProjection": "ПистолетL"
+    }
+  ]
+}

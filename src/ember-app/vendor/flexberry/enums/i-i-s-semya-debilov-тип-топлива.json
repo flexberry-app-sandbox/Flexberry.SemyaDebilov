@@ -1,0 +1,10 @@
+﻿{
+  "nameSpace": "IIS.SemyaDebilov",
+  "className": "ТипТоплива",
+  "enumObjects": {
+    "1": "92",
+    "2": "95",
+    "3": "98",
+    "4": "Дизель"
+  }
+}

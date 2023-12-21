@@ -1,0 +1,131 @@
+﻿{
+  "name": "IISSemyaDebilovРегистр",
+  "modelName": "i-i-s-semya-debilov-регистр",
+  "className": "Регистр",
+  "nameSpace": "IIS.SemyaDebilov",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "оплата",
+      "relatedTo": "i-i-s-semya-debilov-оплата",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "резервуар",
+      "relatedTo": "i-i-s-semya-debilov-резервуар",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "РегистрE",
+      "modelName": "i-i-s-semya-debilov-регистр",
+      "attrs": [],
+      "belongsTo": [
+        {
+          "lookupValue": "Номер",
+          "lookupValueField": "номер",
+          "relationName": "Оплата",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "номер",
+              "caption": "Номер",
+              "hidden": true,
+              "index": 1
+            }
+          ],
+          "index": 0,
+          "type": "standard",
+          "caption": "Оплата",
+          "name": "оплата",
+          "relatedTo": "i-i-s-semya-debilov-оплата",
+          "inverse": null
+        },
+        {
+          "lookupValue": "Номер",
+          "lookupValueField": "номер",
+          "relationName": "Резервуар",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "номер",
+              "caption": "Номер",
+              "hidden": true,
+              "index": 3
+            }
+          ],
+          "index": 2,
+          "type": "standard",
+          "caption": "Резервуар",
+          "name": "резервуар",
+          "relatedTo": "i-i-s-semya-debilov-резервуар",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    },
+    {
+      "name": "РегистрL",
+      "modelName": "i-i-s-semya-debilov-регистр",
+      "attrs": [],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Оплата",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "номер",
+              "caption": "Номер",
+              "hidden": false,
+              "index": 0
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Номер",
+          "name": "оплата",
+          "relatedTo": "i-i-s-semya-debilov-оплата",
+          "inverse": null
+        },
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Резервуар",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "номер",
+              "caption": "Номер",
+              "hidden": false,
+              "index": 1
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Номер",
+          "name": "резервуар",
+          "relatedTo": "i-i-s-semya-debilov-резервуар",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

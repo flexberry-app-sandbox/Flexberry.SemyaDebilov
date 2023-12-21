@@ -1,0 +1,31 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Оплата",
+      "projection": "ОплатаL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Резервуар",
+      "projection": "РезервуарL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Регистр",
+  "name": "IISSemyaDebilovРегистрE",
+  "className": "РегистрE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-semya-debilov-регистр",
+      "modelProjection": "РегистрE"
+    }
+  ]
+}

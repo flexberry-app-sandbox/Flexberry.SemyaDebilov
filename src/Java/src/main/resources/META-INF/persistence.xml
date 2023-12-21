@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1"
+	xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistencehttp://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+    <persistence-unit name="Olingo4PG">
+        <class>SemyaDebilov.model.Rezervuar</class>
+        <class>SemyaDebilov.model.Registr</class>
+        <class>SemyaDebilov.model.Karty</class>
+        <class>SemyaDebilov.model.Oplata</class>
+        <class>SemyaDebilov.model.Azs</class>
+        <class>SemyaDebilov.model.Terminal</class>
+        <class>SemyaDebilov.model.Pistolet</class>
+        <class>SemyaDebilov.model.SpravochnikCen</class>
+        <class>SemyaDebilov.model.Toplivo</class>
+        <class>SemyaDebilov.model.Kolonka</class>
+        <class>SemyaDebilov.model.Sostav</class>
+        <class>SemyaDebilov.model.FlexberryAdvLimit</class>
+        <class>SemyaDebilov.model.NewPlatformFlexberryFlexberryUserSetting</class>
+        <class>SemyaDebilov.model.NewPlatformFlexberryServicesLock</class>
+        <class>SemyaDebilov.model.IISCaseberryLoggingObjectsApplicationLog</class>
+
+    </persistence-unit>
+</persistence>

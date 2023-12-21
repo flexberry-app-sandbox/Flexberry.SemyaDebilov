@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-semya-debilov-азс-e",
+  "editForm": "i-i-s-semya-debilov-азс-e",
+  "external": false,
+  "caption": "Азс",
+  "name": "IISSemyaDebilovАзсL",
+  "className": "АзсL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-semya-debilov-азс",
+      "modelProjection": "АзсL"
+    }
+  ]
+}

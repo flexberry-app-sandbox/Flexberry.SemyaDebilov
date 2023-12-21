@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-semya-debilov-регистр-e",
+  "editForm": "i-i-s-semya-debilov-регистр-e",
+  "external": false,
+  "caption": "Регистр",
+  "name": "IISSemyaDebilovРегистрL",
+  "className": "РегистрL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-semya-debilov-регистр",
+      "modelProjection": "РегистрL"
+    }
+  ]
+}

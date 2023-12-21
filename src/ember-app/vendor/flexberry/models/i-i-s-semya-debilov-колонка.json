@@ -1,0 +1,89 @@
+﻿{
+  "name": "IISSemyaDebilovКолонка",
+  "modelName": "i-i-s-semya-debilov-колонка",
+  "className": "Колонка",
+  "nameSpace": "IIS.SemyaDebilov",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "номер",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "состояние",
+      "type": "i-i-s-semya-debilov-состояние",
+      "flexberryType": "Состояние",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [
+    {
+      "name": "состав",
+      "relatedTo": "i-i-s-semya-debilov-состав",
+      "inverse": "колонка"
+    }
+  ],
+  "projections": [
+    {
+      "name": "КолонкаE",
+      "modelName": "i-i-s-semya-debilov-колонка",
+      "attrs": [
+        {
+          "name": "номер",
+          "caption": "Номер",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "состояние",
+          "caption": "Состояние",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": [
+        {
+          "projectionName": "СоставE",
+          "caption": "Состав",
+          "name": "состав",
+          "relatedTo": "i-i-s-semya-debilov-состав",
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "name": "КолонкаL",
+      "modelName": "i-i-s-semya-debilov-колонка",
+      "attrs": [
+        {
+          "name": "номер",
+          "caption": "Номер",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "состояние",
+          "caption": "Состояние",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

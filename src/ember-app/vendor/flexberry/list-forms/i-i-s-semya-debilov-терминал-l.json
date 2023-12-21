@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-semya-debilov-терминал-e",
+  "editForm": "i-i-s-semya-debilov-терминал-e",
+  "external": false,
+  "caption": "Терминал",
+  "name": "IISSemyaDebilovТерминалL",
+  "className": "ТерминалL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-semya-debilov-терминал",
+      "modelProjection": "ТерминалL"
+    }
+  ]
+}

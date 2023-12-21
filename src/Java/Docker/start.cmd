@@ -1,0 +1,1 @@
+docker-compose -p semyadebilov-java up -d

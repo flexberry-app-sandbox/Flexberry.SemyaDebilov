@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-semya-debilov-резервуар-e",
+  "editForm": "i-i-s-semya-debilov-резервуар-e",
+  "external": false,
+  "caption": "Резервуар",
+  "name": "IISSemyaDebilovРезервуарL",
+  "className": "РезервуарL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-semya-debilov-резервуар",
+      "modelProjection": "РезервуарL"
+    }
+  ]
+}

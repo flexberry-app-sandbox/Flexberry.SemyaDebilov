@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Азс",
+      "projection": "АзсL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Терминал",
+  "name": "IISSemyaDebilovТерминалE",
+  "className": "ТерминалE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-semya-debilov-терминал",
+      "modelProjection": "ТерминалE"
+    }
+  ]
+}

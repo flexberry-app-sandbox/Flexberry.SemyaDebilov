@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-semya-debilov-колонка-e",
+  "editForm": "i-i-s-semya-debilov-колонка-e",
+  "external": false,
+  "caption": "Колонка",
+  "name": "IISSemyaDebilovКолонкаL",
+  "className": "КолонкаL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-semya-debilov-колонка",
+      "modelProjection": "КолонкаL"
+    }
+  ]
+}
